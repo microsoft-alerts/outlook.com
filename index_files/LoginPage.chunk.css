@@ -1,0 +1,130 @@
+/* $input-border-radius-sm: $border-radius-sm !default; */
+.react-app .CompromisedModal__container-fluid.CompromisedModal__large {
+  max-width: 1344px; }
+
+.react-app .CompromisedModal__compromisedInstructions {
+  list-style: none;
+  counter-reset: compromised-instructions; }
+  .react-app .CompromisedModal__compromisedInstructions li {
+    font-size: 14px;
+    counter-increment: compromised-instructions; }
+  .react-app .CompromisedModal__compromisedInstructions li:before {
+    content: counter(compromised-instructions) ".";
+    color: #0b70d5;
+    display: inline-block;
+    margin-right: 0.5rem; }
+
+/* $input-border-radius-sm: $border-radius-sm !default; */
+.react-app .LoginFormNotificationsAndErrors__container-fluid.LoginFormNotificationsAndErrors__large {
+  max-width: 1344px; }
+
+@media (max-width: 340px) {
+  .react-app .LoginFormNotificationsAndErrors__labelIcon {
+    width: 115px; } }
+
+/* $input-border-radius-sm: $border-radius-sm !default; */
+.react-app .LanguageItem__container-fluid.LanguageItem__large {
+  max-width: 1344px; }
+
+.react-app .LanguageItem__languageItem {
+  padding-left: 32px !important; }
+
+.react-app .LanguageItem__langSelected {
+  background: #f4fafd !important;
+  padding-left: 8px !important; }
+  .react-app .LanguageItem__langSelected:before {
+    background-image: url("/assets/images/icon_check-blue.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+    display: block;
+    height: 12px;
+    margin-right: 8px;
+    min-width: 16px; }
+    @media screen and (max-width: 567px) {
+      .react-app .LanguageItem__langSelected:before {
+        margin-right: 5px; } }
+
+/* $input-border-radius-sm: $border-radius-sm !default; */
+.react-app .LanguageSelector__container-fluid.LanguageSelector__large {
+  max-width: 1344px; }
+
+.react-app .LanguageSelector__icon {
+  fill: #a9a9a9;
+  min-width: 16px;
+  width: 16px;
+  transition: all 0.3s ease-in-out; }
+
+.react-app .LanguageSelector__iconActive {
+  transform: rotate(180deg);
+  fill: #00a5ef; }
+
+.react-app .LanguageSelector__dropdown {
+  outline: none; }
+  .react-app .LanguageSelector__dropdown button:focus {
+    background-color: #ffffff; }
+
+.react-app .LanguageSelector__langValue {
+  max-width: 100px; }
+
+.react-app .LanguageSelector__borderActive button:focus, .react-app .LanguageSelector__borderActive button:hover {
+  border-color: #00a5ef; }
+
+@media (min-width: 568px) {
+  .react-app .LanguageSelector__columns {
+    -webkit-columns: 2;
+            columns: 2;
+    min-width: 408px;
+    max-width: 100%;
+    -webkit-column-gap: 8px;
+            column-gap: 8px; } }
+
+/* $input-border-radius-sm: $border-radius-sm !default; */
+.react-app .AuthPageLayout__container-fluid.AuthPageLayout__large {
+  max-width: 1344px; }
+
+.react-app .AuthPageLayout__page, .react-app .AuthPageLayout__row {
+  min-height: 100vh; }
+
+@media (min-width: 1200px) {
+  .react-app .AuthPageLayout__content {
+    max-width: 454px; } }
+
+@media (min-width: 667px) and (max-width: 991.98px) {
+  .react-app .AuthPageLayout__content {
+    max-width: 454px; } }
+
+/* $input-border-radius-sm: $border-radius-sm !default; */
+.react-app .SplitScreenIllustration__container-fluid.SplitScreenIllustration__large {
+  max-width: 1344px; }
+
+.react-app .SplitScreenIllustration__rectangleLeft {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(calc(-50% + 64px), 50%); }
+
+.react-app .SplitScreenIllustration__rectangleRight {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(calc(50% - 64px), -50%); }
+
+/* $input-border-radius-sm: $border-radius-sm !default; */
+.react-app .AnniversaryScreenIllustration__container-fluid.AnniversaryScreenIllustration__large {
+  max-width: 1344px; }
+
+.react-app .AnniversaryScreenIllustration__rectangleLeft {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(calc(-50% + 64px), 50%); }
+
+.react-app .AnniversaryScreenIllustration__rectangleRight {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(calc(50% - 64px), -50%); }
+
+
+/*# sourceMappingURL=LoginPage.chunk.css.map?c=19e9162fc9a07e7fb7a8*/
